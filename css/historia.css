@@ -1,0 +1,17 @@
+.hsBody{
+    color: white;
+    text-align: left;
+    font-size: 2.1rem;
+    line-height: 33px;
+}
+.hsBody h2{
+    font-family: 'Pirata One', cursive;
+    font-size: 5.2rem;
+}
+.hsBody p{
+    color: rgb(175, 175, 175);
+}
+#imagehs1 {
+    width: 25%;
+    height: 25%;
+}

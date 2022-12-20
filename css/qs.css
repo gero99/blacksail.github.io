@@ -1,0 +1,10 @@
+.qsBody{
+    color: white;
+    text-align: left;
+    font-size: 2.1rem;
+    line-height: 30px;
+}
+.qsBody h2{
+    font-family: 'Pirata One', cursive;
+    font-size: 5.2rem;
+}
