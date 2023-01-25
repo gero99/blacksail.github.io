@@ -4,7 +4,7 @@
    --green: black;
    --white: #fff;
    --light-white: rgb(206, 206, 206);
-   --black: #141414;
+   --black: #000000;
    --light-bg: #000000;
 }
 
@@ -79,13 +79,31 @@ section {
 /* sumate al clan */
 
 .knowledge {
-   background-color: #e5e5f7;
-   background-image: radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+   background-color: #000000;
    background-size: 20px 20px;
    background-position: 0 0, 10px 10px;
    overflow: hidden;
 }
+.knowledege__texts{
+   color: white;
+}
+.knowledege__texts h2{
+font-size: 55px;
+font-family: 'Pirata One', cursive;
+}
+.knowledege__texts a{
+   text-decoration: none;
+   font-size: 15px;
+   border-radius: 5px;
+   background-color: white;
+   padding: 10px 30px;
+   color: #000000;
 
+}
+.knowledege__texts a:hover{
+   background-color: #000000;
+   color: white;
+}
 .knowledge__container{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -94,22 +112,24 @@ section {
 }
 
 .knowledge__picture{
-   max-width: 500px;
+   max-width: 450px;
 }
 
 .knowledge__paragraph{
    line-height: 1.7;
-   margin-bottom: 15px;
+   margin-bottom: 20px;
+   font-size: 16px;
 }
 
 .knowledge__img{
    width: 100%;
+   max-width: 450px;
    display: block;
 }
 
 .hStreamers {
    color: white;
-   margin-bottom: 2.5rem;
+   margin-top: 65px;
    text-align: center;
    font-size: 4rem;
    font-family: 'Pirata One', cursive;
