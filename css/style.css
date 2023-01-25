@@ -89,6 +89,7 @@ section {
 }
 .knowledege__texts {
   color: white;
+  margin-left: 190px;
 }
 .knowledege__texts h2 {
   font-size: 55px;
@@ -125,9 +126,11 @@ section {
 
 .knowledge__img {
   width: 100%;
-  max-width: 350px;
+  max-width: 650px;
   display: block;
 }
+
+
 
 .hStreamers {
   color: white;
