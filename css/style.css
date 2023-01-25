@@ -74,6 +74,9 @@ section {
   cursor: pointer;
   margin-top: 35px;
 }
+
+
+
 /* sumate al clan */
 
 .knowledge {
@@ -133,15 +136,32 @@ section {
   font-size: 4rem;
   font-family: "Pirata One", cursive;
 }
-.sponsorClan {
+.heroItems{
+  display: flex;
+  flex-direction: row;
   position: absolute;
+  align-content: space-between;
+}
+.izqHero{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-left: 55px;
+}
+.izqHero img{
+  max-width: 300px;
+
+}
+
+.sponsorClan {
+  position: relative;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
   flex-direction: row;
-  margin-top: 41%;
-  margin-left: 10px;
   font-size: 25px;
+  margin-top: 10%;
   color: white;
 }
 .sponsorClan img {
@@ -212,6 +232,7 @@ section {
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  
 }
 
 .home video {
@@ -221,8 +242,11 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
+  margin-left: 20%;
   object-fit: cover;
-  clip-path: polygon(0 0, 100% 0, 100% 84%, 50.5% 94%, 0 84%);
+  clip-path: polygon(50% 0%, 100% 0, 100% 100%, 26% 100%, 13% 0);
+
+
 }
 
 .swiper-pagination-bullet {
