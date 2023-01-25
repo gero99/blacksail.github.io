@@ -1,6 +1,6 @@
 .body {
   text-align: center;
-  min-height:650px;
+  min-height:600px;
 }
 
 .body input {
@@ -30,11 +30,10 @@
   width: 200px;
   height: 200px;
   transition: all 0.4s ease-in-out;
+  padding: 5px 5px 5px ;
 }
 
-.body .images .marginLeft {
-    margin-left: 20px;
-}
+
 #fish:checked ~ .images > img:not([class*="fish"]),
 #birds:checked ~ .images > img:not([class*="birds"]),
 #lion:checked ~ .images > img:not([class*="lion"]) {
