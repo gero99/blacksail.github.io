@@ -112,7 +112,7 @@ font-family: 'Pirata One', cursive;
 }
 
 .knowledge__picture{
-   max-width: 450px;
+   max-width: 690px;
 }
 
 .knowledge__paragraph{
@@ -123,7 +123,7 @@ font-family: 'Pirata One', cursive;
 
 .knowledge__img{
    width: 100%;
-   max-width: 450px;
+   max-width: 320px;
    display: block;
 }
 
