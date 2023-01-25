@@ -81,7 +81,8 @@ section {
 .knowledge {
    background-color: #000000;
    background-size: 20px 20px;
-   margin-top: 45px;
+   margin-top: 40px;
+   margin-bottom: 45px;
    background-position: 0 0, 10px 10px;
    overflow: hidden;
 }
@@ -326,7 +327,7 @@ font-family: 'Pirata One', cursive;
 .footer {
    background-color: white;
    text-align: center;
-   margin-top: 136px;
+   margin-top: 1px;
    /* padding-bottom: 7rem; */
 }
 
@@ -427,7 +428,8 @@ font-family: 'Pirata One', cursive;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
-   margin: 40px 0;
+   margin: 40px 0 ;
+   margin-bottom: 90px;
 }
 
 .container .card {
