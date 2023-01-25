@@ -1,0 +1,48 @@
+.body {
+  text-align: center;
+  min-height:800px;
+}
+
+.body input {
+  display: none;
+}
+
+.tag {
+  font-size: 20px;
+  margin: 1.5em 0px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  background: #ffffff;
+  text-decoration: none;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.body .images img {
+  max-width: 250px;
+  width: 250px;
+  height: 250px;
+  transition: all 0.4s ease-in-out;
+}
+.body .images .marginExe{
+    margin-right: 55px;
+}
+.body .images .marginLeft {
+    margin-left: 10px;
+}
+#fish:checked ~ .images > img:not([class*="fish"]),
+#birds:checked ~ .images > img:not([class*="birds"]),
+#lion:checked ~ .images > img:not([class*="lion"]) {
+  width: 0px;
+  height: 0px;
+}
+
+#all:checked ~ .all,
+#fish:checked ~ .tag1,
+#birds:checked ~ .tag2,
+#lion:checked ~ .tag3 {
+  background-color: #333333;
+  color: white;
+}

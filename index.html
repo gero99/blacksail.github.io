@@ -1,263 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Sail</title>
+    <link rel="icon" type="image/x-icon" href="/images/xdd.jpg" />
 
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Black Sail</title>
-   <link rel="icon" type="image/x-icon" href="/images/xdd.jpg">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/galeria.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
 
-   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pirata+One&display=swap" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
-   
-   <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-
-
-   <header class="header">
-
+  <body>
+    <header class="header">
       <section class="flex">
-         <a href="index.html" class="brand">BlackSail</a>
-         <nav class="navbar">
-            <a href="index.html">Inicio</a>
-            <a href="#about">Contacto</a>
-            <a href="#courses">Jerarquia</a>
-            <a href="quienesomos.html">Acerca de</a>
-            <a href="historia.html">Historia</a>
-            <a href="proyectos.html">Proyectos</a>
-         </nav>
-         <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="index.html" class="brand">BlackSail</a>
+        <nav class="navbar">
+          <a href="index.html">Inicio</a>
+          <a href="#about">Contacto</a>
+          <a href="#courses">Jerarquia</a>
+          <a href="quienesomos.html">Acerca de</a>
+          <a href="historia.html">Historia</a>
+          <a href="proyectos.html">Proyectos</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
       </section>
+    </header>
 
-   </header>
-
-   <section class="home">
-      <video class="video-slide active" src="images/barcos_piratas.mp4" autoplay muted loop></video>
-      <div class="row">
-         <div class="content">
-            <img src="images/blacksail.png" alt="" class="imgHomeUno">
-            <img src="images/blacksailgames.png" alt="" class="imgHomeDos">
-            
-         </div>
-         <div class="sponsorDiv">
-            <span>Sponsors oficiales</span>
-            <img src="" alt="">
-         </div>
+    <section class="home">
+      <video
+        class="video-slide active"
+        src="images/barcos_piratas.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+      <div class="sponsorClan">
+        <p>Sponsor oficial |</p>
+        <img src="images/logogym.png" alt="" />
+        <div class="sponsorSocial">
+          <a
+            href="https://twitter.com/BlackS2023"
+            class="fab fa-twitter"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCCRS70FpLTz9dmMb546TvhQ"
+            class="fab fa-youtube"
+            target="_blank"
+          ></a>
+        </div>
       </div>
-   </section>
-
-
-   <section class="about" id="about">
-
-      <div class="row">
-
-         <div class="image">
-            <img src="images/prueba_1.png" alt="" id="vinculoUno">
-         </div>
-
-         <div class="content">
-            <h3>Queres formar parte del gremio?</h3>
-            <p>​Si quieres formar parte de nuestro gremio , ingresa a nuestro canal de discord y ahí encontraras los
-               pasos necesarios para incorporarte.</p>
-            <p>Haz click en el boton de abajo para redirigirte
-               al discord del gremio.</p>
-            <a href="https://discord.gg/p85WB6Q9Qt" class="btn" target="_blank">DISCORD</a>
-         </div>
-
+      <div class="sponsorClanDos">
+        <div class="sponsorSocial">
+          <a
+          href="https://twitter.com/BlackS2023"
+          class="fab fa-twitter"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCCRS70FpLTz9dmMb546TvhQ"
+          class="fab fa-youtube"
+          target="_blank"
+        ></a>
+        </div>
+        <p>| Nuestras Redes</p>
+        
       </div>
+    </section>
 
-   </section>
+    
+    <section class="hJerarquia body">
+      <h1 class="heading">Jerarquia del clan</h1>  
+      <input type="radio" id="all" name="button" checked>
+      <input type="radio" id="fish" name="button">
+      <input type="radio" id="birds" name="button">
+      <input type="radio" id="lion" name="button">
+  
+        <label class="tag all" for="all">all</label>
+        <label class="tag tag1" for="fish">Lider</label>
+        <label class="tag tag2" for="birds">CoLider</label>
+        <label class="tag tag3" for="lion">Elders</label>
+        <br />
+  
+        <div class="images">
+          <img src="https://source.unsplash.com/pF4iSe6NVkI" class="lion marginLeft" />
+          <img src="images/Captura de pantalla 2022-12-26 194222.png" class="lion marginLeft" />
+          <img src="images/image.png" class="lion marginLeft" />
+  
+          <img src="images/ak47.jpg" class="birds marginLeft" />
+          <img src="images/ByHero.jpg" class="birds marginLeft" />
+          <img src="images/Dannakyn.jpeg" class="birds marginLeft" />
+  
+          <img src="images/Exes.jpeg" class="fish marginExe" />
+          
+        </div>  
+    </section>
 
-
-
-   <section class="courses" id="courses">
-
-      <h1 class="heading">Jerarquia del clan</h1>
-      <br>
-      <br>
-      <div class="swiper course-slider">
-
-         <div class="swiper-wrapper">
-
-            <div class="swiper-slide slide">
-               <img src="images/Exes.jpeg" alt="">
-               <br>
-               <br>
-               <h3>( Lider ) Exes</h3>
-
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/ByHero.jpg" alt="">
-               <br>
-               <br>
-               <h3>( Colider ) Byhero</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/ak47.jpg" alt="">
-               <br>
-               <br>
-               <h3>( Colider ) Antharas</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/Dannakyn.jpeg" alt="">
-               <br>
-               <br>
-               <h3>( Colider ) Lady Nox</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/yaka.png" alt="">
-               <br>
-               <br>
-               <h3>( Elders ) Yacka</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/image.png" alt="">
-               <br>
-               <br>
-               <h3>( Elders ) Eva</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/Captura de pantalla 2022-12-26 194222.png" alt="">
-               <br>
-               <br>
-               <h3>( Elders ) Snow</h3>
-            </div>
-
-            <div class="swiper-slide slide">
-               <img src="images/Captura de pantalla 2022-12-26 194222.png" alt="">
-               <br>
-               <br>
-               <h3>( Elders ) Morta</h3>
-            </div>
-
-
-         </div>
-         <br>
-         <br>
-         <div class="swiper-pagination"></div>
-
-      </div>
-
-   </section>
-   
-
-   <section class="bodyStream">
-      <h1 class="heading">Streamers / Influencers</h1>
+    <section class="bodyStream">
+      <h1 class="hStreamers">Streamers / Influencers</h1>
 
       <div class="container">
-         <div class="card">
-            <div class="content">
-               <div class="imgBx"><img src="images/jennie.png" alt=""></div>
-               <div class="contentBx">
-                  <h3>Jenny</h3>
-               </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx"><img src="images/jennie.png" alt="" /></div>
+            <div class="contentBx">
+              <h3>Jenny</h3>
             </div>
-            <ul class="sci">
-               <li style="--i:1">
-                  <a href="https://www.youtube.com/channel/UCvatuapv-F0t9LYIGIveVQA" class="fa-brands fa-youtube" target="_blank"></a>
-               <li style="--i:2">
-                  <a href="https://www.instagram.com/jenniegameplays/" class="fa-brands fa-instagram" target="_blank"></a>
-               <li style="--i:3">
-                  <a href="https://twitter.com/JennieGamePlay" class="fab fa-twitter" target="_blank"></a>
-               </li>
-               <li style="--i:3">
-                  <a href="https://www.twitch.tv/jenniegameplay" class="fa-brands fa-twitch" target="_blank"></a>
-               </li>
-            </ul>
-         </div>
-         <div class="card">
-            <div class="content">
-               <div class="imgBx"><img src="images/ankra.png" alt=""></div>
-               <div class="contentBx">
-                  <h3>Ankra</h3>
-               </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a
+                href="https://www.youtube.com/channel/UCvatuapv-F0t9LYIGIveVQA"
+                class="fa-brands fa-youtube"
+                target="_blank"
+              ></a>
+            </li>
+
+            <li style="--i: 2">
+              <a
+                href="https://www.instagram.com/jenniegameplays/"
+                class="fa-brands fa-instagram"
+                target="_blank"
+              ></a>
+            </li>
+
+            <li style="--i: 3">
+              <a
+                href="https://twitter.com/JennieGamePlay"
+                class="fab fa-twitter"
+                target="_blank"
+              ></a>
+            </li>
+            <li style="--i: 3">
+              <a
+                href="https://www.twitch.tv/jenniegameplay"
+                class="fa-brands fa-twitch"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx"><img src="images/ankra.png" alt="" /></div>
+            <div class="contentBx">
+              <h3>Ankra</h3>
             </div>
-            <ul class="sci">
-               <li style="--i:1">
-                  <a href="https://www.youtube.com/@Arkr4" class="fa-brands fa-youtube" target="_blank"></a>
-               </li>
-               <li style="--i:2">
-                  <a href="https://t.me/+YGwPe2EW9X8wMzFh" class="fa-brands fa-telegram" target="_blank"></a>
-               </li>
-            
-            </ul>
-         </div>
-         <div class="card">
-            <div class="content">
-               <div class="imgBx"><img src="images/deidoperfil.png" alt=""></div>
-               <div class="contentBx">
-                  <h3>awusdeodo</h3>
-               </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a
+                href="https://www.youtube.com/@Arkr4"
+                class="fa-brands fa-youtube"
+                target="_blank"
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a
+                href="https://t.me/+YGwPe2EW9X8wMzFh"
+                class="fa-brands fa-telegram"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="imgBx"><img src="images/deidoperfil.png" alt="" /></div>
+            <div class="contentBx">
+              <h3>awusdeodo</h3>
             </div>
-            <ul class="sci">
-               <li style="--i:1">
-                  <a href="https://www.instagram.com/rip.awus/?hl=es" class="fa-brands fa-instagram" target="_blank"></a>
-               </li>
-               <li style="--i:2">
-                  <a href="https://www.twitch.tv/awusdeodo" class="fa-brands fa-twitch" target="_blank"></a>
-               </li>
-              
-            </ul>
-         </div>
+          </div>
+          <ul class="sci">
+            <li style="--i: 1">
+              <a
+                href="https://www.instagram.com/rip.awus/?hl=es"
+                class="fa-brands fa-instagram"
+                target="_blank"
+              ></a>
+            </li>
+            <li style="--i: 2">
+              <a
+                href="https://www.twitch.tv/awusdeodo"
+                class="fa-brands fa-twitch"
+                target="_blank"
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
-   </section>
+    </section>
 
-
-
-
-
-
-
-
-   <footer class="footer">
-
+    <footer class="footer">
       <section>
-         <div class="credit">&copy; copyright @ 2022 by <span>Black Sail Devs</span>
-         </div>
-         <div class="share">
-            <a href="https://twitter.com/BlackS2023" class="fab fa-twitter" target="_blank"></a>
-            <a href="https://www.youtube.com/channel/UCCRS70FpLTz9dmMb546TvhQ" class="fab fa-youtube"
-               target="_blank"></a>
-         </div>
-
-
-
+        <div class="credit">
+          &copy; copyright @ 2022 by <span>Black Sail Devs</span>
+        </div>
+        <div class="share">
+          <a
+            href="https://twitter.com/BlackS2023"
+            class="fab fa-twitter"
+            target="_blank"
+          ></a>
+          <a
+            href="https://www.youtube.com/channel/UCCRS70FpLTz9dmMb546TvhQ"
+            class="fab fa-youtube"
+            target="_blank"
+          ></a>
+        </div>
       </section>
+    </footer>
 
-   </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-
-   <script src="js/script.js"></script>
-
-
-
-</body>
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

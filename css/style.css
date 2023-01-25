@@ -20,10 +20,7 @@
    text-transform: capitalize;
 }
 
-*::selection {
-   background-color: var(--white);
-   color: var(--black);
-}
+
 
 html {
    font-size: 62.5%;
@@ -75,12 +72,58 @@ section {
    margin-bottom: 2.5rem;
    text-align: center;
    font-size: 4rem;
-   color: white;
    font-family: 'Pirata One', cursive;
+   cursor: pointer;
+   margin-top: 35px;
 }
 
-
-
+.hStreamers {
+   color: white;
+   margin-bottom: 2.5rem;
+   text-align: center;
+   font-size: 4rem;
+   font-family: 'Pirata One', cursive;
+}
+.sponsorClanDos{
+   margin-left: 80%;
+   position: absolute;
+   display: flex;
+   align-items: flex-end;
+   align-content: flex-end;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-top: 40%;
+   font-size: 30px;
+   color: white;
+}
+.sponsorClanDos .sponsorSocial a{
+  margin-right: 5px;
+   color: rgb(255, 255, 255);
+   ;
+}
+.sponsorClan {
+   position: absolute;
+   display: flex;
+   align-items: flex-end;
+   align-content: flex-end;
+   justify-content: space-between;
+   flex-direction: row;
+   margin-top: 40%;
+   margin-left: 10px;
+   font-size: 30px;
+   color: white;
+   
+}
+.sponsorClan img{
+   max-width: 40px;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+.sponsorClan .sponsorSocial a{
+  margin-left: 5px;
+   color: rgb(255, 255, 255);
+   ;
+}
 .header {
    position: fixed;
    top: 0;
@@ -143,46 +186,7 @@ section {
    justify-content: center;
    flex-direction: column;
    width: 100%;
-
-}
-
-.home::before {
-   z-index: 777;
-   content: '';
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   top: 0;
-   left: 0;
-}
-
-.home .row {
-   display: flex;
-   align-items: center;
-   flex-wrap: wrap-reverse;
-   gap: 1.5rem;
-}
-
-.home .row .content {
-   text-align: left;
-   z-index: 888;
-   display: flex;
-   flex-direction: column;
-   margin-left: 60px;
-   margin-top: 105px;
-}
-
-
-.home .row .imgHomeUno {
-   width: auto;
-}
-
-.home .row .imgHomeDos {
-   width: auto;
-   margin-top: 20px;
-}
-.home .row  .sponsorDiv {
-   background: #fff;
+   
 }
 
 .home video {
@@ -191,83 +195,17 @@ section {
    top: 0;
    left: 0;
    width: 100%;
-
    height: 100%;
    object-fit: cover;
-}
-
-.about .row {
-   display: flex;
-   align-items: center;
-   gap: 1.5rem;
-   padding: 200px 240px 240px 240px;
-   flex-wrap: wrap;
-}
-
-.about .row .image {
-   flex: 1 1 40rem;
-}
-
-.about .row .image img {
-   width: 80%;
-}
-
-.about .row .content {
-   text-align: center;
-   flex: 1 1 40rem;
-}
-
-.about .row .content h3 {
-   font-size: 6rem;
-   color: var(--white);
-   font-family: 'Pirata One', cursive;
-   text-align: left;
+   clip-path: polygon(0 0, 100% 0, 100% 75%, 50.5% 96%, 0 75%);
+   
 
 }
 
-.about .row .content p {
-   padding: 1rem 0;
-   line-height: 2;
-   font-size: 2rem;
-   color: var(--light-white);
-   text-align: left;
-}
 
-.courses .slide {
-   background-color: var(--light-bg);
-   border-radius: .5rem;
-   text-align: center;
-   padding: 2rem;
-   user-select: none;
-   border-radius: 10px;
-}
 
-.courses .slide img {
-   height: 240px;
-   width: 240px;
-   border-radius: 10px;
-   margin-top: 50px;
-   object-fit: cover;
-   overflow: hidden;
-}
 
-.courses .slide h3 {
-   margin: 1.5rem 0;
-   font-size: 2rem;
-   color: var(--white);
-}
 
-.courses .slide p {
-   line-height: 2;
-   font-size: 1.6rem;
-   color: var white;
-}
-
-.courses {
-   padding-left: 340px;
-   padding-right: 340px;
-   margin-bottom: 220px;
-}
 
 .swiper-pagination-bullet {
    background-color: var(--white);
@@ -353,7 +291,7 @@ section {
 }
 
 .footer {
-   background-color: var(--light-bg);
+   background-color: white;
    text-align: center;
    margin-top: 136px;
    /* padding-bottom: 7rem; */
@@ -366,70 +304,32 @@ section {
    line-height: 4.5rem;
    border-radius: 50%;
    font-size: 2rem;
-   color: var(--white);
-   background-color: var(--black);
+   color: black;
+   background-color: white;
    ;
 }
 
 .footer .share a:hover {
-   background-color: var(--green);
+   background-color: white;
 }
 
 .footer .credit {
    margin-top: 2.5rem;
    padding: 1.5rem;
    padding-top: 2.5rem;
-   border-top: .0rem solid var(--light-white);
+   border-top: .0rem solid black;
    font-size: 2rem;
-   color: var(--light-white);
+   color: black;
 }
 
 .footer .credit span {
-   color: white;
+   color: black;
 }
 
 
 
-.team {
-   position: relative;
-   width: 100%;
-   height: 100vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   flex-direction: column;
-}
 
-.team-content {
-   width: 100%;
-   max-width: 1350px;
-   margin: 0 auto;
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-   align-items: center;
-   gap: 2rem;
-   text-align: center;
-   margin-top: 4rem;
-}
 
-.team-content img {
-   width: 100%;
-   height: auto;
-   max-width: 300px;
-   max-height: 300px;
-   border-radius: 15px;
-   margin-bottom: 15px;
-   object-fit: cover;
-   overflow: hidden;
-}
-
-.center h1 {
-   color: #fff;
-   font-size: 4rem;
-   text-align: center;
-   font-family: 'Pirata One', cursive;
-
-}
 
 .box {
    padding: 16px;
@@ -470,19 +370,12 @@ section {
    cursor: pointer;
 }
 
-@media(max-width: 1240px) {
-   .team {
-      width: 100%;
-      height: auto;
-      padding: 90px 2%;
-   }
 
-   .center h1 {
-      font-size: 3.2rem;
-   }
+
+.hJerarquia{
+   color: black;
+   background-color: white;
 }
-
-
 
 
 .homeStream {
