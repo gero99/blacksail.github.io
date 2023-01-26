@@ -34,14 +34,18 @@
 }
 #exe:checked ~ .images > img:not([class*="exe"]),
 #colider:checked ~ .images > img:not([class*="colider"]),
-#elders:checked ~ .images > img:not([class*="elders"]) {
+#elders:checked ~ .images > img:not([class*="elders"]),
+#diseñoWeb:checked ~ .images > img:not([class*="diseñoWeb"])
+ {
   display: none;
 }
 
 #all:checked ~ .all,
 #exe:checked ~ .tag1,
 #colider:checked ~ .tag2,
-#elders:checked ~ .tag3 {
+#elders:checked ~ .tag3,
+#diseñoWeb:checked ~ .tag4
+{
   background-color: #000000;
   color: white;
 }
