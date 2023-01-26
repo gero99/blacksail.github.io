@@ -151,9 +151,10 @@ section {
   position: relative;
   flex-direction: column;
   margin-top: 20%;
+  margin-left: 65px;
 }
 .izqHero img{
-  max-width: 300px;
+  max-width: 280px;
 
 }
 
@@ -559,8 +560,9 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
   .home .row .content h3 {
     font-size: 6rem;
   }
-}
+  
 
+}
 @media (max-width: 450px) {
   html {
     font-size: 50%;
@@ -572,6 +574,22 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
 
   .heading {
     font-size: 3rem;
+  }
+  .izqHero {
+margin-left: 0px
+;    margin-top: 18%;
+    
+  }
+  .izqHero img{
+    max-width: 220px;
+    margin-left: 30px;
+  }
+  .sponsorClan img {
+    max-width: 35px;
+    margin-left: 5px;
+  }
+  .home video {
+    display: none;
   }
 }
 

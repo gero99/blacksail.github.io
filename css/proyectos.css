@@ -178,7 +178,7 @@ video{
    align-items: center;
    flex-wrap: wrap-reverse;
    gap:1.5rem;
-   margin-top: 20rem;
+   margin-top: 10rem;
    position: relative;
 }
 
@@ -427,40 +427,42 @@ video{
 .contact .row form .radio #female:checked ~ label[for="female"]{
    color:var(--green);
 }
-
-.footer{
-   background-color: var(--light-bg);
+.footer {
+   background-color: white;
    text-align: center;
-   margin-top: 10rem;
-}
-
-.footer .share a{
-   margin:0 .3rem;
+   margin-top: 1px;
+   /* padding-bottom: 7rem; */
+ }
+ 
+ .footer .share a {
+   margin: 0 0.3rem;
    height: 4.5rem;
    width: 4.5rem;
    line-height: 4.5rem;
    border-radius: 50%;
    font-size: 2rem;
-   color:var(--white);
-   background-color: var(--black);;
-}
-
-.footer .share a:hover{
-   background-color: black;
-}
-
-.footer .credit{
+   color: black;
+   background-color: white;
+ }
+ 
+ .footer .share a:hover {
+   background-color: white;
+ }
+ 
+ .footer .credit {
    margin-top: 2.5rem;
-   padding:1.5rem;
+   padding: 1.5rem;
    padding-top: 2.5rem;
-   border-top: .0rem solid var(--light-white);
+   border-top: 0rem solid black;
    font-size: 2rem;
-   color:var(--light-white);
-}
+   color: black;
+ }
+ 
+ .footer .credit span {
+   color: black;
+ }
 
-.footer .credit span{
-   color: white;
-}
+
 
 
 
