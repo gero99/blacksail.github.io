@@ -1,6 +1,6 @@
 .body {
   text-align: center;
-  min-height:600px;
+  min-height: 600px;
 }
 
 .body input {
@@ -33,19 +33,18 @@
   transition: all 0.4s ease-in-out;
   padding: 5px 5px 5px ;
 }
-
-
-#fish:checked ~ .images > img:not([class*="fish"]),
-#birds:checked ~ .images > img:not([class*="birds"]),
-#lion:checked ~ .images > img:not([class*="lion"]) {
+#exe:checked ~ .images > img:not([class*="exe"]),
+#colider:checked ~ .images > img:not([class*="colider"]),
+#elders:checked ~ .images > img:not([class*="elders"]) {
   width: 0px;
   height: 0px;
+  
 }
 
 #all:checked ~ .all,
-#fish:checked ~ .tag1,
-#birds:checked ~ .tag2,
-#lion:checked ~ .tag3 {
+#exe:checked ~ .tag1,
+#colider:checked ~ .tag2,
+#elders:checked ~ .tag3 {
   background-color: #000000;
   color: white;
 }
