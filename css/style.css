@@ -89,7 +89,6 @@ section {
 }
 .knowledege__texts {
   color: white;
-  margin-left: 190px;
 }
 .knowledege__texts h2 {
   font-size: 55px;
@@ -143,14 +142,12 @@ section {
   display: flex;
   flex-direction: row;
   position: absolute;
-  align-content: space-between;
 }
 .izqHero{
   display: flex;
   position: relative;
   flex-direction: column;
   margin-top: 20%;
-  margin-left: 55px;
 }
 .izqHero img{
   max-width: 300px;
@@ -245,7 +242,6 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  margin-left: 20%;
   object-fit: cover;
   clip-path: polygon(50% 0%, 100% 0, 100% 100%, 26% 100%, 13% 0);
 
