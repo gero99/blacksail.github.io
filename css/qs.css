@@ -10,7 +10,7 @@
     color: red;
 }
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 :root{
    --green:#000000;
    --white:#fff;
@@ -20,8 +20,7 @@
 }
 
 *{
-   font-family: 'Bebas Neue', cursive;
-   margin:0; padding:0;
+   font-family: 'Roboto', sans-serif;   margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
    text-decoration: none;
@@ -33,7 +32,10 @@
    background-color: var(--white);
    color:var(--black);
 }
-
+* a{
+   font-family: 'Bebas Neue', cursive;
+   
+}
 html{
    font-size: 62.5%;
    overflow-x: hidden;

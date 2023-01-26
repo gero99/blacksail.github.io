@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 :root {
   --green: black;
   --white: #fff;
@@ -9,7 +8,7 @@
 }
 
 * {
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,7 +18,14 @@
   transition: 0.2s linear;
   text-transform: capitalize;
 }
-
+* a{
+  font-family: 'Bebas Neue', cursive;
+  
+}
+* h1,h2{
+  font-family: 'Bebas Neue', cursive;
+  
+}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
