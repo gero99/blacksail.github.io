@@ -8,9 +8,8 @@
 }
 
 .tag {
-  font-size: 15px;
+  font-size: 12px;
   margin: 1.5em 0px;
-  margin-left: 8px;
   padding: 10px 30px;
   border-radius: 50px;
   display: inline-block;
@@ -36,9 +35,7 @@
 #exe:checked ~ .images > img:not([class*="exe"]),
 #colider:checked ~ .images > img:not([class*="colider"]),
 #elders:checked ~ .images > img:not([class*="elders"]) {
-  width: 0px;
-  height: 0px;
-  
+  display: none;
 }
 
 #all:checked ~ .all,
