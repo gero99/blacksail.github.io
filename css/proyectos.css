@@ -27,7 +27,6 @@
       font-size: 1.8em;
       text-align: left;
       color: white;
-      
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
@@ -47,7 +46,6 @@
    outline: none; border:none;
    text-decoration: none;
    transition: .2s linear;
-   text-transform: capitalize;
 }
 * a{
    font-family: 'Bebas Neue', cursive;
