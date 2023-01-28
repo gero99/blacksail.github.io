@@ -561,8 +561,8 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
     top: 99%;
     left: 0;
     right: 0;
-    border-top: 0.1rem solid var(--light-white);
-    border-bottom: 0.1rem solid var(--light-white);
+    border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
     background-color: var(--light-bg);
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
