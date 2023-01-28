@@ -59,7 +59,11 @@ section {
 }
 
 
-
+.heading{
+  font-size: 40px;
+  font-family: "Pirata One", cursive;
+  margin-top: 15px;
+}
 
 
 /* sumate al clan */
@@ -556,8 +560,12 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
   .home .row .content h3 {
     font-size: 6rem;
   }
-  
-
+  .home video {
+    display: none;
+  }
+  .izqHero{
+margin-left: 180px; 
+ }
 }
 @media (max-width: 450px) {
   html {

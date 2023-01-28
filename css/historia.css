@@ -2,11 +2,14 @@
   color: white;
   text-align: left;
   font-size: 1.8rem;
-  line-height: 33px;
+  line-height: 26px;
+  padding: 50px 50px 50px 50px;
+
 }
 .hsBody h2 {
   font-family: "Pirata One", cursive;
-  font-size: 5rem;
+  font-size: 4rem;
+  line-height: 40px;
 }
 .hsBody p {
   color: var(--white);
@@ -15,6 +18,8 @@
   width: 25%;
   height: 25%;
   border-radius: 10px;
+  margin: 45px 0 45px 0;
+
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
@@ -151,7 +156,7 @@ section {
   align-items: center;
   flex-wrap: wrap-reverse;
   gap: 1.5rem;
-  margin-top: 10rem;
+  margin-top: 1rem;
   position: relative;
 }
 
@@ -205,13 +210,22 @@ section {
   #menu-btn {
     display: inline-block;
   }
-
+  .hsBody h2 {
+    font-size: 3.33rem;
+  }
+  .hsBody img{
+    display: none;
+  }
   #menu-btn.fa-times {
     transform: rotate(180deg);
   }
-
+  .header .flex .navbar a:hover{
+    background-color: white;
+    color: #000000;
+  }
   .header .flex .navbar {
     position: absolute;
+    z-index: 999;
     top: 99%;
     left: 0;
     right: 0;

@@ -29,6 +29,8 @@
       color: white;
 }
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
 
 :root{
@@ -231,8 +233,12 @@ section{
       border-bottom: 0.1rem solid white;
       background-color: var(--light-bg);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+      z-index: 999;
     }
- 
+    .header .flex .navbar a:hover{
+      background-color: white;
+      color: #000000;
+    }
    .header .flex .navbar.active {
      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
