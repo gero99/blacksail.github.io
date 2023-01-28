@@ -1,5 +1,5 @@
 var menuBtn = document.querySelector('#menu-btn');
-var navbar = document.querySelector('.header .flex .navbar');
+var navbar = document.querySelector('.navbar');
 
 menuBtn.onclick = () =>{
    menuBtn.classList.toggle('fa-times');

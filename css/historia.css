@@ -80,28 +80,29 @@ section {
 }
 
 
-.header {
-  position: fixed;
+.header{
+  position: static;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1000;
+  z-index: 999;
   background-color: var(--light-bg);
+  transition: 0.5s ease;
 }
 
 .header .flex {
   position: relative;
-  max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
+  justify-content: space-around;
 
+}
 .header .flex .brand {
   font-family: "Pirata One", cursive;
-  font-size: 2.5rem;
+  font-size: 29px;
   color: var(--white);
 }
+
 
 .header .flex .navbar a {
   margin-left: 2rem;
@@ -110,6 +111,7 @@ section {
   transition: 0.3 ease;
   position: relative;
 }
+
 .header .flex .navbar a:before {
   content: "";
   position: absolute;
@@ -120,9 +122,11 @@ section {
   left: 0;
   transition: 0.4s ease;
 }
+
 .header .flex .navbar a:hover:before {
   width: 100%;
 }
+
 #menu-btn {
   cursor: pointer;
   color: var(--white);
@@ -131,7 +135,14 @@ section {
 }
 
 .home {
-  max-width: 1200px;
+  position: relative;
+  width: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  
 }
 
 
@@ -189,6 +200,7 @@ section {
 
 }
 
+
 @media (max-width: 768px) {
   #menu-btn {
     display: inline-block;
@@ -203,10 +215,10 @@ section {
     top: 99%;
     left: 0;
     right: 0;
-    border-top: 0.1rem solid var(--light-white);
-    border-bottom: 0.1rem solid var(--light-white);
+    border-top: 0.1rem solid white;
+    border-bottom: 0.1rem solid white;
     background-color: var(--light-bg);
-    clip-path: polygon(0 0, 100%brand 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
   .header .flex .navbar.active {

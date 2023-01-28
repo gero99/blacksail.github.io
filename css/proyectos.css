@@ -82,8 +82,7 @@ body{
 }
 
 section{
-   margin:0 auto;
-   max-width: 100%;
+   
    padding:2rem;
 }
 
@@ -91,35 +90,39 @@ section{
 
 
 .header{
-   position: fixed;
-   top:0; left:0; right:0;
-   z-index: 1000;
+   position: static;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 999;
    background-color: var(--light-bg);
+   transition: 0.5s ease;
 }
 
-.header .flex{
+.header .flex {
    position: relative;
-   max-width: 1200px;
    display: flex;
    align-items: center;
-   justify-content: space-between;
-}
+   justify-content: space-around;
+ 
+ }
+ .header .flex .brand {
+   font-family: "Pirata One", cursive;
+   font-size: 29px;
+   color: var(--white);
+ }
 
-.header .flex .brand{
-   font-family: 'Pirata One', cursive;
-   font-size: 2.5rem;
-   color:var(--white);
-}
 
-.header .flex .navbar a{
+ .header .flex .navbar a {
    margin-left: 2rem;
-   color:var(--light-white);
+   color: var(--light-white);
    font-size: 2rem;
    transition: 0.3 ease;
    position: relative;
-}
-.header .flex .navbar a:before{
-   content: '';
+ }
+ 
+ .header .flex .navbar a:before {
+   content: "";
    position: absolute;
    background: white;
    width: 0;
@@ -127,21 +130,29 @@ section{
    bottom: 0;
    left: 0;
    transition: 0.4s ease;
-
-}
-.header .flex .navbar a:hover:before{
+ }
+ 
+ .header .flex .navbar a:hover:before {
    width: 100%;
-}
-#menu-btn{
+ }
+ 
+ #menu-btn {
    cursor: pointer;
-   color:var(--white);
+   color: var(--white);
    font-size: 2.5rem;
    display: none;
-}
+ }
 
-.home{ 
-   max-width: 1200px;
-}
+ .home {
+   position: relative;
+   width: auto;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   
+ }
 
 
 .home .row{
@@ -211,33 +222,32 @@ section{
    #menu-btn.fa-times {
      transform: rotate(180deg);
    }
-
-   .header .flex .navbar{
+   .header .flex .navbar {
       position: absolute;
-      top:99%; left:0; right:0;
-      border-top: .1rem solid white;
-      border-bottom: .1rem solid white;
+      top: 99%;
+      left: 0;
+      right: 0;
+      border-top: 0.1rem solid white;
+      border-bottom: 0.1rem solid white;
       background-color: var(--light-bg);
-      clip-path: polygon(0 0, 100%brand 0, 100% 0, 0 0);
-   }
-
-   .header .flex .navbar.active{
-      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-       
-   }
-   
-   .header .flex .navbar a{
-      display: block;
-      margin:2rem;
-   }
-
+      clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
  
-}
-
-@media (max-width:450px){
-
-   html{
-      font-size: 50%;
+   .header .flex .navbar.active {
+     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
-
-}
+ 
+   .header .flex .navbar a {
+     display: block;
+     margin: 2rem;
+   }
+ 
+ }
+ 
+ @media (max-width: 450px) {
+   html {
+     font-size: 50%;
+   }
+ 
+ }
+ 

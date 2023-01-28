@@ -58,30 +58,7 @@ section {
   padding: 2rem;
 }
 
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  border-radius: 5rem;
-  background-color: var(--light-bg);
-  cursor: pointer;
-  color: var(--white);
-  font-size: 1.8rem;
-  padding: 1rem 3rem;
-}
 
-.btn:hover {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-.heading {
-  margin-bottom: 2.5rem;
-  text-align: center;
-  font-size: 4rem;
-  font-family: "Pirata One", cursive;
-  cursor: pointer;
-  margin-top: 35px;
-}
 
 
 
