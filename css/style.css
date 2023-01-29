@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 :root {
   --green: black;
   --white: #fff;
@@ -8,7 +8,7 @@
 }
 
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -18,13 +18,12 @@
   transition: 0.2s linear;
   text-transform: capitalize;
 }
-* a{
-  font-family: 'Bebas Neue', cursive;
-  
+* a {
+  font-family: "Bebas Neue", cursive;
 }
-* h1,h2{
-  font-family: 'Bebas Neue', cursive;
-  
+* h1,
+h2 {
+  font-family: "Bebas Neue", cursive;
 }
 html {
   font-size: 62.5%;
@@ -50,7 +49,6 @@ html {
 body {
   background-color: var(--black);
   overflow-x: hidden;
-
 }
 
 section {
@@ -58,13 +56,11 @@ section {
   padding: 2rem;
 }
 
-
-.heading{
+.heading {
   font-size: 40px;
   font-family: "Pirata One", cursive;
   margin-top: 15px;
 }
-
 
 /* sumate al clan */
 
@@ -101,11 +97,7 @@ section {
   gap: 1em;
   align-items: center;
   grid-column-gap: 10em;
-
-  
 }
-
-
 
 .knowledge__paragraph {
   line-height: 1.7;
@@ -116,10 +108,8 @@ section {
 .knowledge__img {
   max-width: 280px;
   border-radius: 15px;
-  box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+  box-shadow: 0px 3px 5px rgba(15, 15, 15, 0.5);
 }
-
-
 
 .hStreamers {
   color: white;
@@ -128,21 +118,20 @@ section {
   font-size: 4rem;
   font-family: "Pirata One", cursive;
 }
-.heroItems{
+.heroItems {
   display: flex;
   flex-direction: row;
   position: absolute;
 }
-.izqHero{
+.izqHero {
   display: flex;
   position: relative;
   flex-direction: column;
   margin-top: 20%;
   margin-left: 65px;
 }
-.izqHero img{
+.izqHero img {
   max-width: 280px;
-
 }
 
 .sponsorClan {
@@ -174,26 +163,24 @@ section {
 }
 
 .header .flex {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
-
 }
 .header .flex .redesTop .brand {
   font-size: 30px;
 }
-.header .flex .redesTop{
-  font-family: 'Bebas Neue', cursive;
+.header .flex .redesTop {
+  font-family: "Bebas Neue", cursive;
   display: flex;
   flex-direction: row;
 }
-.header .flex .redesTop a{
-  
+.header .flex .redesTop a {
   text-decoration: none;
   color: white;
   font-size: 21px;
   margin-left: 8px;
+  margin-top: 9px;
   align-self: center;
 }
 .header .flex .brand {
@@ -202,7 +189,58 @@ section {
   color: var(--white);
   cursor: pointer;
 }
+.header .flex .multiIdioma {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  margin-right: 45px;
+}
+.header .flex .multiIdioma .h1Es {
+  color: white;
+  font-family: "Pirata One", cursive;
+  margin-right: 6px;
+  margin-top: 3px;
+  font-size: 16px;
 
+}
+.header .flex .multiIdioma .h1En {
+  margin-left: 42px;
+  font-size: 16px;
+  color: white;
+  font-family: "Pirata One", cursive;
+  margin-top: 3px;
+
+}
+.header .flex .multiIdioma .checkBox {
+  position: relative;
+  width: 50%;
+}
+.header .flex .multiIdioma .checkBox::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background: white;
+  border-radius: 25px;
+}
+.header .flex .multiIdioma .checkBox::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: black;
+  border-radius: 25px;
+  transition: 0.25s;
+  border: 2px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+.header .flex .multiIdioma .checkBox:checked::after {
+  left: 25px;
+  border: 2px solid white;
+}
+.header .flex .multiIdioma .checkBox:checked::before {
+  background: white;
+}
 .header .flex .navbar a {
   margin-left: 2rem;
   color: var(--light-white);
@@ -234,14 +272,12 @@ section {
 }
 
 .home {
-  position: relative;
   width: auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  
 }
 
 .home video {
@@ -253,9 +289,7 @@ section {
   height: 100%;
   margin: auto;
   object-fit: cover;
-clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
-
-
+  clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
 }
 
 .swiper-pagination-bullet {
@@ -536,7 +570,15 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
   #menu-btn {
     display: inline-block;
   }
-
+  .heroItems{
+    margin-left: 12px;
+  }
+  .heroItems img {
+    margin-left: 8px;
+  }
+  .header .flex .multiIdioma{
+    margin-right: 140px;
+  }
   #menu-btn.fa-times {
     transform: rotate(180deg);
   }
@@ -560,16 +602,18 @@ clip-path: polygon(31% 0, 100% 0, 100% 100%, 41% 100%);
     display: block;
     margin: 2rem;
   }
-
+  .header .flex .redesTop .redes {
+    display: none;
+  }
   .home .row .content h3 {
     font-size: 6rem;
   }
   .home video {
     display: none;
   }
-  .izqHero{
-margin-left: 180px; 
- }
+  .izqHero {
+    margin-left: 180px;
+  }
 }
 @media (max-width: 450px) {
   html {
@@ -584,11 +628,10 @@ margin-left: 180px;
     font-size: 3rem;
   }
   .izqHero {
-margin-left: 0px
-;    margin-top: 18%;
-    
+    margin-left: 0px;
+    margin-top: 18%;
   }
-  .izqHero img{
+  .izqHero img {
     max-width: 220px;
     margin-left: 30px;
   }
@@ -599,10 +642,25 @@ margin-left: 0px
   .home video {
     display: none;
   }
+  .header .flex .redesTop .redes {
+    display: none;
+  }
+  .heroItems{
+    margin-left: 10px;
+  }
+  .heroItems img {
+    margin-left: 18px;
+  }
+  .heroItems a {
+ font-size: 21px;
+  }
+  .header .flex .multiIdioma{
+    margin-right: 110px;
+  }
 }
 
-@media(width < 1140px){
-  .home video{
+@media (width < 1140px) {
+  .home video {
     opacity: 1;
   }
 }

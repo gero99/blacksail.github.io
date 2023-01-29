@@ -128,6 +128,57 @@ section {
   width: 100%;
 }
 
+.header .flex .multiIdioma {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+}
+.header .flex .multiIdioma .h1Es {
+  color: white;
+  font-family: "Pirata One", cursive;
+  margin-right: 6px;
+  margin-top: 3px;
+  font-size: 16px;
+
+}
+.header .flex .multiIdioma .h1En {
+  margin-left: 42px;
+  font-size: 16px;
+  color: white;
+  font-family: "Pirata One", cursive;
+  margin-top: 3px;
+
+}
+.header .flex .multiIdioma .checkBox {
+  position: relative;
+  width: 50%;
+}
+.header .flex .multiIdioma .checkBox::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 25px;
+  background: white;
+  border-radius: 25px;
+}
+.header .flex .multiIdioma .checkBox::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  background: black;
+  border-radius: 25px;
+  transition: 0.25s;
+  border: 2px solid rgb(255, 255, 255);
+  box-sizing: border-box;
+}
+.header .flex .multiIdioma .checkBox:checked::after {
+  left: 25px;
+  border: 2px solid white;
+}
+.header .flex .multiIdioma .checkBox:checked::before {
+  background: white;
+}
 #menu-btn {
   cursor: pointer;
   color: var(--white);
@@ -205,6 +256,9 @@ section {
    #menu-btn {
      display: inline-block;
    }
+   .header .flex .multiIdioma{
+    margin-right: 140px;
+  }
    .header .flex .navbar a:hover{
     background-color: white;
     color: #000000;
