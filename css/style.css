@@ -201,7 +201,6 @@ section {
   margin-right: 6px;
   margin-top: 3px;
   font-size: 16px;
-
 }
 .header .flex .multiIdioma .h1En {
   margin-left: 42px;
@@ -209,7 +208,6 @@ section {
   color: white;
   font-family: "Pirata One", cursive;
   margin-top: 3px;
-
 }
 .header .flex .multiIdioma .checkBox {
   position: relative;
@@ -570,14 +568,14 @@ section {
   #menu-btn {
     display: inline-block;
   }
-  .heroItems{
+  .heroItems {
     margin-left: 12px;
   }
   .heroItems img {
     margin-left: 8px;
   }
-  .header .flex .multiIdioma{
-    margin-right: 140px;
+  .header .flex .multiIdioma {
+    margin-right: 90px;
   }
   #menu-btn.fa-times {
     transform: rotate(180deg);
@@ -623,20 +621,23 @@ section {
   .home .row .content h3 {
     font-size: 5rem;
   }
-
+  .header .flex .redesTop .brand{
+    font-size: 29x;
+  
+  }
+  .header .flex .multiIdioma{
+    margin-left: 5px;
+  }
   .heading {
-    font-size: 3rem;
+    font-size: 1rem;
   }
   .izqHero {
     margin-left: 0px;
     margin-top: 18%;
   }
-  .izqHero img {
-    max-width: 220px;
-    margin-left: 30px;
-  }
+  
   .sponsorClan img {
-    max-width: 35px;
+    max-width: 30px;
     margin-left: 5px;
   }
   .home video {
@@ -645,16 +646,16 @@ section {
   .header .flex .redesTop .redes {
     display: none;
   }
-  .heroItems{
-    margin-left: 10px;
+  .heroItems {
+    margin-left: 0px;
   }
   .heroItems img {
-    margin-left: 18px;
+    margin-left: 0px;
   }
   .heroItems a {
- font-size: 21px;
+    font-size: 21px;
   }
-  .header .flex .multiIdioma{
+  .header .flex .multiIdioma {
     margin-right: 110px;
   }
 }
