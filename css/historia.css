@@ -8,7 +8,7 @@
 }
 .hsBody h2 {
   font-family: "Pirata One", cursive;
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 40px;
 }
 .hsBody p {
@@ -106,6 +106,8 @@ section {
   font-family: "Pirata One", cursive;
   font-size: 29px;
   color: var(--white);
+  cursor: pointer;
+  
 }
 
 
@@ -211,7 +213,7 @@ section {
     display: inline-block;
   }
   .hsBody h2 {
-    font-size: 3.33rem;
+    font-size: 4.5rem;
   }
   .hsBody img{
     display: none;

@@ -180,6 +180,9 @@ section {
   justify-content: space-around;
 
 }
+.header .flex .redesTop .brand {
+  font-size: 30px;
+}
 .header .flex .redesTop{
   font-family: 'Bebas Neue', cursive;
   display: flex;
@@ -197,6 +200,7 @@ section {
   font-family: "Pirata One", cursive;
   font-size: 29px;
   color: var(--white);
+  cursor: pointer;
 }
 
 .header .flex .navbar a {
